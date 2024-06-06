@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^10.12.2",
+    "natural": "^7.0.6"
+  }
+}

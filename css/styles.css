@@ -1,0 +1,74 @@
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif
+}
+#wordcloud {
+  border: 1px solid black;
+  margin: 20px auto;
+  background-color: white;
+  width: 100%;
+  height: 600px;
+}
+text:hover {
+  fill: red;
+  cursor: pointer;
+}
+
+#survey-form{
+  margin-bottom: 50px;
+}
+
+#QuestionItems{
+  font-size:24px;
+}
+
+#question{
+  width: 80%;
+  border-radius:5px;
+  border-color: #668ad8;
+  cursor:pointer;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:10px;
+  margin-bottom: 20px;
+  font-weight:700;
+  text-align: left;
+}
+
+[type="submit"] {
+  width: 20%;
+  background:#668ad8;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:16px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#0423f0; }
+
+
+#responses{
+  background: #f1f8ff;
+  box-shadow: 0px 0px 0px 10px #f1f8ff;
+  border: dashed 2px #668ad8;
+  border-radius: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+#response-list{
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 0.5em 0;
+  column-count: 6;
+  list-style-type: none!important;
+  column-rule: dotted;
+}

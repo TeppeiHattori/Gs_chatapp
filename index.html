@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リアルタイムアンケート</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-cloud/build/d3.layout.cloud.js"></script>
+</head>
+<body>
+  <h1>リアルタイムアンケート</h1>
+  <form id="survey-form">
+    <label for="question" id="QuestionItems">質問:好きな食べものは？ <br></label>
+    <input type="text" id="question" name="question" required>
+    <button type="submit">送信</button>
+  </form>
+  <div id="responses">
+    <h2>回答一覧</h2>
+    <ul id="response-list"></ul>
+  </div>
+  <h2>ワードクラウド</h2>
+  <div id="wordcloud"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
